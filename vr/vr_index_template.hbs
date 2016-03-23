@@ -1,0 +1,218 @@
+<head>
+    <meta charset='utf-8' />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+    <title>Netflix - Dinnertime</title>
+    <link href="{{{this._app.attributes.server.path}}}/css/styles.css" media="screen" rel="stylesheet" type="text/css" />
+    <link rel="stylesheet" type="text/css" href="https://cloud.typography.com/6447154/6013152/css/fonts.css" />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="http://time.com/paid-content-from/netflix/dinnertime/" />
+    <meta property="og:site_name" content="TIME.com" />
+    <meta property="og:image" content="{{{this._app.attributes.server.path}}}/images/fb-image.jpg" />
+    <meta property="og:title" content="See How Food Has Changed Through the Pages of TIME" />
+    <meta property="og:description" content="In Netflix's documentary series, Cooked (now streaming) Michael Pollan examines how food culture has changed. For the last 93 years, Time has been too. First stop: our Julia Child cover, back when she was new on the scene...in 1966." />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta property="twitter:site" content="TIME.com" />
+    <meta property="twitter:image:src" content="{{{this._app.attributes.server.path}}}/images/fb-image.jpg" />
+    <meta property="twitter:title" content="From Julia Child to child obesity, a romp through @time's food archives" />
+    <meta property="twitter:description" content="Julia Child! Foodies! Obesity. It's @TIME's greatest food hits through the years. #dinnertime @netflix" />
+</head>
+
+<body class="{{#if this._app.attributes.loggedInWP}}is-logged-in-wp{{/if}} vr-page">
+    <div class="content-wrapper">
+
+       <!-- START HEADER -->
+        <header class="main-header row expanded">
+            <div class="columns small-12 medium-6">
+                <span class="time-icons time-icons-hamburger"></span>
+                <a href="http://time.com/" class="time-icons time-icons-time-logo"></a>
+            </div>
+        </header>
+        <!-- END HEADER -->
+
+        {{!-- START HAMBURGER NAV --}}
+        {{{partial "common/hamburger_nav/hamburger_nav"}}}
+        {{!-- END HAMBURGER NAV --}}
+
+
+        <!-- START MAIN CONTENT -->
+        <div class="content-container">
+        
+            <ul class="accordion">
+            <!-- START VERTICAL BLOCK -->
+            <li class="vertical-block">
+                <img src="{{{this._app.attributes.server.path}}}/images/kitten.jpeg">
+                <div class="vertical-block__text">
+                    <strong>
+                        VIDEO 1
+                    </strong>
+                    <br/>
+                    Lorem ipsum
+                </div>
+            </li>
+            <!-- END VERTICAL BLOCK -->
+
+            <!-- START VERTICAL BLOCK -->
+            <li class="vertical-block">
+                <img src="{{{this._app.attributes.server.path}}}/images/kitten.jpeg">
+                <div class="vertical-block__text">
+                    <strong>
+                        VIDEO 2
+                    </strong>
+                    <br/>
+                    Lorem ipsum
+                </div>
+            </li>
+            <!-- END VERTICAL BLOCK -->
+
+            <!-- START BRIGHTCOVE VERTICAL BLOCK -->
+            <li class="vertical-block">
+                <img src="{{{this._app.attributes.server.path}}}/images/kitten.jpeg">
+                <div class="vertical-block__text">
+                    <strong>
+                        VIDEO 3
+                    </strong>
+                    <br/>
+                    Lorem ipsum 
+                    </div>
+            </li>
+            <!-- END BRIGHTCOVE VERTICAL BLOCK -->
+
+            <!-- START BRIGHTCOVE VERTICAL BLOCK -->
+            <li class="vertical-block">
+                <img src="{{{this._app.attributes.server.path}}}/images/kitten.jpeg">
+                <div class="vertical-block__text">
+                    <strong>
+                        VIDEO 4
+                    </strong>
+                    <br/>
+                    Lorem ipsum 
+                    </div>
+            </li>
+            <!-- END BRIGHTCOVE VERTICAL BLOCK -->
+
+            <!-- START BRIGHTCOVE VERTICAL BLOCK -->
+            <li class="vertical-block">
+                <img src="{{{this._app.attributes.server.path}}}/images/kitten.jpeg">
+                <div class="vertical-block__text">
+                    <strong>
+                        VIDEO 5
+                    </strong>
+                    <br/>
+                    Lorem ipsum 
+                    </div>
+            </li>
+            <!-- END BRIGHTCOVE VERTICAL BLOCK -->
+
+            <!-- START BRIGHTCOVE VERTICAL BLOCK -->
+            <li class="vertical-block">
+                <img src="{{{this._app.attributes.server.path}}}/images/kitten.jpeg">
+                <div class="vertical-block__text">
+                    <strong>
+                        VIDEO 6
+                    </strong>
+                    <br/>
+                    Lorem ipsum 
+                    </div>
+            </li>
+            <!-- END BRIGHTCOVE VERTICAL BLOCK -->
+
+            <!-- START BRIGHTCOVE VERTICAL BLOCK -->
+            <li class="vertical-block">
+                <img src="{{{this._app.attributes.server.path}}}/images/kitten.jpeg">
+                <div class="vertical-block__text">
+                    <strong>
+                        VIDEO 7
+                    </strong>
+                    <br/>
+                    Lorem ipsum 
+                    </div>
+            </li>
+            <!-- END BRIGHTCOVE VERTICAL BLOCK -->
+            </ul>
+            </div>
+        <!-- END MAIN CONTENT -->
+        {{!-- 
+        <!-- START FOOTER -->
+        <footer class="main-footer row expanded">
+            <div class="columns small-12 large-6">
+                <p>This feature was produced in collaboration between <span class="primary-color">STITCH Creative</span> and <span class="primary-color">Netflix</span>.</p>
+                <p>The TIME editorial staff was not involved with the creation or production of this content.</p>
+                <p>&copy;2016 Time Inc. All Rights Reserved.</p>
+            </div>
+            <div class="columns small-12 large-6 main-footer__right">
+                <span class="netflix-icons netflix-icons-netflix-logo"></span>
+                <span class="time-icons time-icons-time-logo"></span>
+            </div>
+        </footer>
+        <!-- END FOOTER --> 
+        --}}
+    </div>
+
+    {{!-- Omniture --}}
+    <script type="text/javascript">
+    var s_account = "timecom"; // change to "timecom" for Prod
+    </script>
+    <script src="http://img.timeinc.net/tii/omniture/h/config/time_s_code_multivideo.js"></script>
+    <script type="text/javascript">
+    s_time.channel = "time";
+    s_time.pageName = "time|native|netflix campaign";
+    s_time.prop16 = "native";
+    var s_code = s_time.t();
+    if (s_code) {
+        document.write(s_code);
+    }
+    </script>
+
+    {{!-- SimpleReach --}}
+    {{partial "common/simplereach/simplereach"}}
+
+    {{!-- Typekit --}}
+    <script>
+    (function(d) {
+        var config = {
+                kitId: 'cfk1lij',
+                scriptTimeout: 3000
+            },
+            h = d.documentElement,
+            t = setTimeout(function() {
+                h.className = h.className.replace(/\bwf-loading\b/g, "") + " wf-inactive";
+            }, config.scriptTimeout),
+            tk = d.createElement("script"),
+            f = false,
+            s = d.getElementsByTagName("script")[0],
+            a;
+        h.className += " wf-loading";
+        if (window.location.protocol === 'https:') {
+            tk.src = 'https://a248.e.akamai.net/f/1016/21600/2d/fonts.timeinc.net/' + config.kitId + '.js';
+        } else {
+            tk.src = 'http://fonts.timeinc.net/' + config.kitId + '.js';
+        };
+        tk.async = true;
+        tk.onload = tk.onreadystatechange = function() {
+            a = this.readyState;
+            if (f || a && a != "complete" && a != "loaded") return;
+            f = true;
+            clearTimeout(t);
+            try {
+                Typekit.load(config)
+            } catch (e) {}
+        };
+        s.parentNode.insertBefore(tk, s)
+    })(document);
+    </script>
+    {{!-- Main Script --}}
+    <script src="{{{this._app.attributes.server.path}}}/js/mergedAssets.js"></script>
+    <script>
+    (function() {
+        var Time = window.Time = new(require('app/app'))({{json appData}});
+        Time.bootstrapData({{json bootstrappedData}});
+        Time.start();
+    })();
+    </script>
+
+    <!-- TO BE DELETED
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+    <script src="http://code.jquery.com/ui/1.9.2/jquery-ui.js"></script>
+    <script type="text/javascript" src="{{{this._app.attributes.server.path}}}/js/temp.js"></script>
+    TO BE DELETED -->
+</body>
